@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Vue Build",
+            "type": "shell",
+            "command": "npm run watch",
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}
